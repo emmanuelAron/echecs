@@ -1,2 +1,0 @@
-# echecs
-mon readme
