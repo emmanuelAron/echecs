@@ -10,6 +10,7 @@ Premier tag du projet: (Pour télécharger cette étape du projet, cliquez sur c
     cliquez sur ce lien si vous voulez télécharger le zip ce cette version release du projet.(la dernière à ce jour)
     
     https://github.com/emmanuelAron/echecs/releases/tag/2
+    
     - test si coordonnees sont dans le plateeu.
     - methode de deplacements possibles du cavalier
     - tests unitaires associés.
