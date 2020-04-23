@@ -6,9 +6,9 @@ import java.util.List;
 public class Cavalier {
 
 	public static List<Case> deplacements(Case c) {
-		/**
-		 * Un cavalier , au centre de l'echiquier a 8 deplacements possibles (donc 8 cases differentes)
-		 * 
+		/*
+		  Un cavalier , au centre de l'echiquier a 8 deplacements possibles
+		  (donc 8 cases differentes)
 		 */
 		List<Case> cases = new ArrayList<>();
 
