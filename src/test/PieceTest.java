@@ -1,12 +1,11 @@
 package test;
 
-import static org.assertj.core.api.Assertions.assertThat;
-
-import org.junit.jupiter.api.Test;
-
 import echecs.Case;
 import echecs.Cavalier;
 import echecs.Tour;
+import org.junit.jupiter.api.Test;
+
+import static org.assertj.core.api.Assertions.*;
 
 public class PieceTest {
 

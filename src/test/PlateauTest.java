@@ -1,9 +1,8 @@
 package test;
 
-import org.junit.jupiter.api.Test;
-
 import echecs.Case;
 import echecs.Plateau;
+import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.*;
 

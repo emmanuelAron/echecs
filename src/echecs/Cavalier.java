@@ -30,6 +30,10 @@ public class Cavalier {
 		Case sudGaucheSup = new Case(gauche, deuxSud);
 		Case sudGaucheInf = new Case(deuxGauche, sud);
 
+		/*
+		Si la coordonnee d arrivee du deplacement appartient au Plateau,
+		alors on ajoute cette coordonnee a la liste de Cases
+		 */
 		if(Plateau.appartientTableau(nordDroiteSup.getX(), nordDroiteSup.getY()))
 			cases.add(nordDroiteSup);
 		if(Plateau.appartientTableau(nordDroiteInf.getX(), nordDroiteInf.getY()))
