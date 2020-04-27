@@ -22,7 +22,10 @@ public class Plateau {
 	public static int largeur() {
 		return LARGEUR;
 	}
-	
+
+	/**
+	 * Creation d un plateau de cases vides
+	 */
 	public Plateau() {
 		for(int i=0; i< LONGUEUR ; i++) {
 			for(int j=0; j< LARGEUR ; j++) {

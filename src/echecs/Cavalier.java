@@ -3,8 +3,13 @@ package echecs;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Cavalier {
+public class Cavalier extends Piece{
 
+	/**
+	 *
+	 * @param c case initiale du cavalier
+	 * @return Liste des deplacements possibles du cavalier
+	 */
 	public static List<Case> deplacements(Case c) {
 		/*
 		  Un cavalier , au centre de l'echiquier a 8 deplacements possibles
